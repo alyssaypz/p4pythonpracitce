@@ -1,7 +1,7 @@
-def give_age():
-    current_age = int(input("What is your current age?"))
-    later_age = current_age + 1
-    print("You will turn " + str(later_age) + " in 2025!")
+def age():
+    year_born = int(input("What year were you born?"))
+    current_age = 2025 - year_born 
+    print("You will turn " + str(current_age) + " in 2025!")
 
-give_age()
+age()
 
