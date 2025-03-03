@@ -4,4 +4,3 @@ def age():
     print("You will turn " + str(current_age) + " in 2025!")
 
 age()
-
